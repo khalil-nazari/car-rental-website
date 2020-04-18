@@ -1,0 +1,21 @@
+.navContainer {
+    padding: 10px 0 !important;
+}
+
+.navbar {
+    background: transparent !important;
+    padding: 10px 0 !important;
+}
+
+.navLink {
+    color: #ffffff !important;
+    font-size: 12pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+.navLink:hover {
+    color: #06cc20 !important;
+}
+

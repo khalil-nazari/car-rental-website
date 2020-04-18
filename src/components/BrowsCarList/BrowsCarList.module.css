@@ -1,0 +1,52 @@
+.browsHeader {
+    display: flex !important; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.browsHeader a {
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+    color: grey;
+}
+
+.browsHeader a:hover {
+    border-bottom: 1px dotted grey;
+}
+
+.browsLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.items {
+    padding: 10px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items a {
+    color: grey;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+}
+.items a:hover {
+    border-bottom: 1px dotted grey;
+}
+
+.browsLinks img {
+    height: 60px;
+    width: 60px;
+}
+
+
+.hr {
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    margin-top: 60px;
+}

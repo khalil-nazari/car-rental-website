@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLinks a {
+    margin-left: 15px;
+}
+.popularItem {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    border-bottom: 1px dashed grey;
+
+}
+.popularItem:hover {
+   text-decoration: none; 
+   color: rgb(77, 77, 77);
+}
+
+
+/* insdie card */
+.card {
+    border: none !important;
+    margin-bottom: 30px;
+}
+
+.cardLink:hover {
+    text-decoration: none;
+}
+
+.NamePrice {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px  0 !important;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.NamePrice .name {
+    flex-basis: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    line-height: 16px;
+}
+
+.NamePrice .price {
+    flex-basis: 40%;
+    text-align: right;
+    background: rgb(70, 197, 70);
+    color: white;
+    display: block;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+    padding-right:10px;
+    padding-top: 0;
+    
+}
+
+.discount, .afterDiscount{ 
+    padding: 0;
+    margin: 0;
+    
+}
+
+.discount{
+    color: rgb(0, 0, 0);
+    text-decoration: line-through;
+}
+
+.afterDiscount{  
+    font-weight: 700;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 !important; 
+    color: grey;
+}
+
+
+/* button */
+.morebtn {
+    padding: 10px 80px !important;
+    text-transform: uppercase;
+}
