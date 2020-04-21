@@ -1,7 +1,8 @@
+
 .browsHeader {
     display: flex !important; 
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
@@ -19,6 +20,22 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+@media (max-width: 990px) {
+    .browsLinks { 
+        padding: 0 30px !important;
+    }
+}
+
+@media (max-width: 600px){
+    .browsLinks { 
+        padding: 0 20px !important;
+    }
+
+    .coltype{
+        margin-top: 30px;
+    }
+    
 }
 
 .items {

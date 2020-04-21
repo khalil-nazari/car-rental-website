@@ -1,0 +1,31 @@
+.facebook:hover {
+    color: rgb(116, 92, 250);
+}
+
+.twitter:hover {
+    color: rgb(168, 203, 255);
+}
+
+.instagram:hover {
+    color: rgb(197, 86, 86)
+}
+
+.linkedin:hover {
+    color: rgb(0, 105, 190);
+}
+
+.gPlus:hover {
+    color: coral;
+}
+
+.youtube:hover {
+    color: rgb(182, 57, 57);
+}
+
+.fa {
+    color: rgb(170, 170, 170);
+}
+
+/* .fa:hover {
+    color: rgb(253, 251, 251);
+} */

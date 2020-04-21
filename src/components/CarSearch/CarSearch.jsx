@@ -1,12 +1,15 @@
 import React from 'react'
 import style from './carSearch.module.css'
 import cx from 'classnames'
+import { Link } from 'react-router-dom';
 
-function CarSearch() {
+function CarSearch(props) {
+    const handleSearchSubmit = (e) => {
+        e.preventDefault();
+    }
 
     return (
-        <div className={cx("container mt-4", style.searchContainer)}>
-           
+        <div className={cx("m-auto mt-4", style.searchContainer)}>
             <ul className={cx("nav nav-tabs", style.navTabs)} id="myTab" role="tablist">
                 <li className="nav-item">
                     <a className={cx("nav-link active")} id="allCondition-tab" data-toggle="tab" href="#allCondition" role="tab" aria-controls="allCondition" aria-selected="true">All Condition</a>
@@ -24,7 +27,7 @@ function CarSearch() {
             </ul>
             <div className="tab-content" id="myTabContent">
                     <div className="tab-pane fade show active" id="allCondition" role="tabpanel" aria-labelledby="allCondition-tab">
-                        <form>
+                        <form onSubmit={handleSearchSubmit}>
                             <div className={style.Conditions}>
                                 <div className={cx(style.inputBox)}>
                                     <select className="form-control">
@@ -52,12 +55,10 @@ function CarSearch() {
                                 </div>
 
                                 <div className={cx(style.inputBox)}>
-                                    <button className="btn btn-secondary">Find Car</button>
+                                    <Link to="/cars" type="submit" className="btn btn-secondary">Find Car</Link>
                                 </div>
-
                             </div>   
                         </form>
-                    
                     </div>
 
                     <div className="tab-pane fade" id="newCars" role="tabpanel" aria-labelledby="newCars-tab">
@@ -89,7 +90,7 @@ function CarSearch() {
                                 </div>
 
                                 <div className={cx(style.inputBox)}>
-                                    <button className="btn btn-secondary">Find Car</button>
+                                    <Link to="/cars" type="submit" className="btn btn-secondary">Find Car</Link>
                                 </div>
 
                             </div>   
@@ -125,7 +126,7 @@ function CarSearch() {
                                 </div>
 
                                 <div className={cx(style.inputBox)}>
-                                    <button className="btn btn-secondary">Find Car</button>
+                                    <Link to="/cars" type="submit" className="btn btn-secondary">Find Car</Link>
                                 </div>
 
                             </div>   
@@ -161,7 +162,7 @@ function CarSearch() {
                                 </div>
 
                                 <div className={cx(style.inputBox)}>
-                                    <button className="btn btn-secondary">Find Car</button>
+                                    <Link to="/cars" type="submit" className="btn btn-secondary">Find Car</Link>
                                 </div>
 
                             </div>   

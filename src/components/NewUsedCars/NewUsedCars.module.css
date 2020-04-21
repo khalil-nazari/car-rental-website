@@ -4,20 +4,26 @@
     align-items: center;
 }
 
+@media(max-width:770px) {
+    .header {
+        display: block;
+        margin-bottom: 20px;
+        text-align: center !important;
+    }
+    .headerLinks a {
+        margin-left: 5px !important;
+    }
+}
+
 .headerLinks a {
     margin-left: 15px;
 }
-.popularItem {
-    text-decoration: none;
-    color: rgb(77, 77, 77);
-    border-bottom: 1px dashed grey;
 
+@media(max-width:375px) {
+    .featuredbtn {
+        margin-top: 5px;
+    }
 }
-.popularItem:hover {
-   text-decoration: none; 
-   color: rgb(77, 77, 77);
-}
-
 
 /* insdie card */
 .card {
@@ -81,6 +87,7 @@
 
 /* button */
 .morebtn {
-    padding: 10px 80px !important;
+    padding: 8px 80px !important;
     text-transform: uppercase;
+    border-radius: 0 !important;
 }

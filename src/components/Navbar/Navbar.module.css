@@ -19,3 +19,36 @@
     color: #06cc20 !important;
 }
 
+.iconNavbar {
+    padding:;
+    display: flex;
+    align-items: center !important;
+}
+
+.rightIcons {
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+}
+
+
+.rightIcons:hover {
+    color: rgb(51, 214, 51);
+}
+
+@media(max-width: 1000px){
+    .containerFluid {
+        background-color: rgb(62, 168, 0) !important;
+    }
+    .navContainer {
+        padding: 0 !important;
+        margin: 0 !important;
+        min-width: 100% !important;
+    }
+}
+
+@media(max-width: 800px){
+    .rightIcons {
+        margin-right: 0;
+    }
+}

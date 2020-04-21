@@ -1,0 +1,30 @@
+.footerNav a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: rgb(170, 170, 170);
+    font-size: 12pt;
+}
+
+.footerNav a:hover {
+    color: white;
+}
+
+.footerNav {
+    color: rgb(170, 170, 170);
+    font-size: 12px;
+}
+.footerSocial, .footerNav {
+    text-align: right !important;
+}
+@media (max-width: 770px) {
+    .footerNav, .footerSocial{
+        padding-top: 15px;
+        text-align: center !important;
+    }
+}
+
+/* search filed */
+.searchField {
+    background: #343a40;
+    border:1px solid rgb(100, 100, 100);
+}

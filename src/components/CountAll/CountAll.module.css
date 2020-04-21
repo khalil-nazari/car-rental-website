@@ -1,0 +1,57 @@
+/* background image */
+.bgImage {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    width: 100%;
+}
+
+/* cont */
+.CountContainer {
+    height: 100%;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media(max-width: 1000px){
+   .col {
+       margin: auto;
+       padding: 20px 0 !important;
+   }
+
+   .CountContainer {
+        height: 100%;
+    }
+
+}
+
+/* icons  */
+.icon {
+    font-size: 40pt;
+    margin-right: 20px;
+}
+
+.countNumber {
+    text-align: left;
+}
+
+.countNumber h2 {
+    margin: 0;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.countNumber span {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+

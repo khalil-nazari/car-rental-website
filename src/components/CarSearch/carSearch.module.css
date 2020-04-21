@@ -1,4 +1,5 @@
 .searchContainer {
+    box-sizing: border-box !important;
     border-bottom: 2px solid grey;
     border-right: 2px solid grey;
     border-left: 3px solid grey;
@@ -6,6 +7,11 @@
     padding: 20px 10px; 
     background-color: white !important;
     margin-top: -80px !important;
+    width: 80% !important;
+}
+
+.navTabs{
+    width: 70% !important;
 }
 
 
@@ -17,4 +23,27 @@
 
 .allCondition .inputBox {
     flex-basis: 25% !important;
+}
+
+@media (max-width: 600px) {
+    .Conditions {
+        display: block !important;
+    }
+    .inputBox {
+        margin: 10px 0;
+    }
+
+    .navTabs {
+        display: block !important;
+    }
+}
+
+@media(max-width: 1000px) {
+    .searchContainer {
+        width: 98% !important;
+    }
+
+    .navTabs{
+        width: 100% !important;
+    }
 }
